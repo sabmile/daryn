@@ -1,0 +1,1 @@
+<h1>{{ __('content.title') }}</h1>
