@@ -10,22 +10,22 @@
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="{{ route('site.main') }}">{{__('content.main')}}</a>
+                    <a class="nav-link active" aria-current="page" href="{{ route('site.main') }}">{{__('content.nav.main')}}</a>
                 </li>
             
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        {{__('content.galery')}}
+                        {{__('content.nav.galery')}}
                     </a>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="{{ route('site.galeryVideo') }}">{{__('content.video')}}</a></li>
-                        <li><a class="dropdown-item" href="#">{{__('content.photo')}}</a></li>
+                        <li><a class="dropdown-item" href="{{ route('site.galeryVideo') }}">{{__('content.nav.video')}}</a></li>
+                        <li><a class="dropdown-item" href="#">{{__('content.nav.photo')}}</a></li>
                     </ul>
                 </li>
 
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        {{__('content.gov-services')}}
+                        {{__('content.nav.gov-services')}}
                     </a>
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item" href="#">{{__('Постановка в очередь')}}</a></li>
@@ -37,13 +37,13 @@
 
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        {{__('content.about-us')}}
+                        {{__('content.nav.about-us')}}
                     </a>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="{{ route('site.groups') }}">{{__('content.groups')}}</a></li>
-                        <li><a class="dropdown-item" href="{{ route('site.schedule') }}">{{__('content.schedule-name')}}</a></li>
-                        <li><a class="dropdown-item" href="{{ route('site.about') }}">{{__('content.history')}}</a></li>
-                        <li><a class="dropdown-item" href="#">{{__('content.employees')}}</a></li>
+                        <li><a class="dropdown-item" href="{{ route('site.groups') }}">{{__('content.nav.groups')}}</a></li>
+                        <li><a class="dropdown-item" href="{{ route('site.schedule') }}">{{__('content.nav.schedule')}}</a></li>
+                        <li><a class="dropdown-item" href="{{ route('site.about') }}">{{__('content.nav.history')}}</a></li>
+                        <li><a class="dropdown-item" href="#">{{__('content.nav.employees')}}</a></li>
                     </ul>
                 </li>
 
@@ -61,7 +61,7 @@
 
             <form class="d-flex" role="search">
                 <input class="form-control me-2" type="search" placeholder="Поиск" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">{{__('content.find')}}</button>
+                <button class="btn btn-outline-success" type="submit">{{__('content.nav.find')}}</button>
             </form>
             
         </div>
