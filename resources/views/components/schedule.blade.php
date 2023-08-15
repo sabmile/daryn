@@ -3,24 +3,74 @@
         <table class="table table-striped">
             <thead>
                 <tr>
-                    <th>{{__('content.schedule-th-col-1')}}</th>
-                    <th>{{__('content.schedule-th-col-2')}}</th>
+                    <th>{{__('content.schedule.th-name-1')}}</th>
+                    <th>{{__('content.schedule.th-name-2')}}</th>
                 </tr>
                 <tbody>
                     <tr>
-                        <td>{{__('content.schedule-td-row-1-col-1')}}</td>
-                        <td>{{__('content.schedule-td-row-1-col-2')}}</td>
+                        <td>{{__('content.schedule.td-1.tr-1')}}</td>
+                        <td>{{__('content.schedule.td-2.tr-1')}}</td>
                     </tr>
                     <tr>
-                        <td>{{__('content.schedule-td-row-2-col-1')}}</td>
-                        <td>{{__('content.schedule-td-row-2-col-2')}}</td>
+                        <td>{{__('content.schedule.td-1.tr-2')}}</td>
+                        <td>{{__('content.schedule.td-2.tr-2')}}</td>
                     </tr>
                     <tr>
-                        <td>{{__('content.schedule-td-row-3-col-1')}}</td>
-                        <td>{{__('content.schedule-td-row-3-col-2')}}</td>
+                        <td>{{__('content.schedule.td-1.tr-3')}}</td>
+                        <td>{{__('content.schedule.td-2.tr-3')}}</td>
                     </tr>
-
-
+                    <tr>
+                        <td>{{__('content.schedule.td-1.tr-4')}}</td>
+                        <td>{{__('content.schedule.td-2.tr-4')}}</td>
+                    </tr>
+                    <tr>
+                        <td>{{__('content.schedule.td-1.tr-5')}}</td>
+                        <td>{{__('content.schedule.td-2.tr-5')}}</td>
+                    </tr>
+                    <tr>
+                        <td>{{__('content.schedule.td-1.tr-6')}}</td>
+                        <td>{{__('content.schedule.td-2.tr-6')}}</td>
+                    </tr>
+                    <tr>
+                        <td>{{__('content.schedule.td-1.tr-7')}}</td>
+                        <td>{{__('content.schedule.td-2.tr-7')}}</td>
+                    </tr>
+                    <tr>
+                        <td>{{__('content.schedule.td-1.tr-8')}}</td>
+                        <td>{{__('content.schedule.td-2.tr-8')}}</td>
+                    </tr>
+                    <tr>
+                        <td>{{__('content.schedule.td-1.tr-9')}}</td>
+                        <td>{{__('content.schedule.td-2.tr-9')}}</td>
+                    </tr>
+                    <tr>
+                        <td>{{__('content.schedule.td-1.tr-10')}}</td>
+                        <td>{{__('content.schedule.td-2.tr-10')}}</td>
+                    </tr>
+                    <tr>
+                        <td>{{__('content.schedule.td-1.tr-11')}}</td>
+                        <td>{{__('content.schedule.td-2.tr-11')}}</td>
+                    </tr>
+                    <tr>
+                        <td>{{__('content.schedule.td-1.tr-12')}}</td>
+                        <td>{{__('content.schedule.td-2.tr-12')}}</td>
+                    </tr>
+                    <tr>
+                        <td>{{__('content.schedule.td-1.tr-13')}}</td>
+                        <td>{{__('content.schedule.td-2.tr-13')}}</td>
+                    </tr>
+                    <tr>
+                        <td>{{__('content.schedule.td-1.tr-14')}}</td>
+                        <td>{{__('content.schedule.td-2.tr-14')}}</td>
+                    </tr>
+                    <tr>
+                        <td>{{__('content.schedule.td-1.tr-15')}}</td>
+                        <td>{{__('content.schedule.td-2.tr-15')}}</td>
+                    </tr>
+                    <tr>
+                        <td>{{__('content.schedule.td-1.tr-16')}}</td>
+                        <td>{{__('content.schedule.td-2.tr-16')}}</td>
+                    </tr>
                 </tbody>
             </thead>
         </table>

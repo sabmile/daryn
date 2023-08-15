@@ -41,7 +41,7 @@
                     </a>
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item" href="{{ route('site.groups') }}">{{__('content.groups')}}</a></li>
-                        <li><a class="dropdown-item" href="{{ route('site.schedule') }}">{{__('content.schedule')}}</a></li>
+                        <li><a class="dropdown-item" href="{{ route('site.schedule') }}">{{__('content.schedule-name')}}</a></li>
                         <li><a class="dropdown-item" href="{{ route('site.about') }}">{{__('content.history')}}</a></li>
                         <li><a class="dropdown-item" href="#">{{__('content.employees')}}</a></li>
                     </ul>
