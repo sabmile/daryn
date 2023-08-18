@@ -2,7 +2,10 @@
 
 @section('content')
 
-    <p>{{__('content.about.history')}}</p>
+    <div>
+        <x-about />
+    </div>
 
 @endsection()
+
 
