@@ -1,5 +1,5 @@
 <main class="flex-grow-1 py-3">
-    <div class="cotainer">
+    <div class="container">
         <div class="row">
             <div class="col">
                 @yield('content')
