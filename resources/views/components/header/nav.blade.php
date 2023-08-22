@@ -1,7 +1,7 @@
 <div class="container-fluid">
     <div class="row">
         <div class="col">
-            <nav class="navbar navbar-expand-lg bg-body-tertiary justify-content-center">
+            <nav id="navbar_top" class="navbar navbar-expand-lg bg-body-tertiary">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="#">{{__('Дарын')}}</a>
                     
