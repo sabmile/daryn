@@ -1,0 +1,38 @@
+services:
+
+  nginx:
+    image: nginx:v1
+    volumes:
+      - ./:/var/www/daryn
+      - ./.docker/nginx/conf.d:/etc/nginx/conf.d
+    environment:
+      - VIRTUAL_HOST=daryn.demo.test
+    networks:
+      - nginx-proxy
+    depends_on:
+      - backend
+      - frontend
+
+  backend:
+    image: backend:v1
+    volumes:
+      - ./:/var/www/daryn
+    working_dir: /var/www/daryn
+    networks:
+      - nginx-proxy
+  
+  frontend:
+    image: node:v1
+    working_dir: /var/www/daryn
+    volumes:
+      - ./:/var/www/daryn
+    ports:
+      - 5175:5173
+    depends_on:
+      - backend
+    command: npm run dev
+
+
+networks:
+  nginx-proxy:  
+    external: true
