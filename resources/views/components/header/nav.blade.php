@@ -30,13 +30,12 @@
 
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    {{__('content.nav.gov-services')}}
+                                    {{__('content.nav.gov-services.name')}}
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">{{__('Постановка в очередь')}}</a></li>
-                                    <li><a class="dropdown-item" href="#">{{__('Зачисление в ДДО')}}</a></li>
-                                    <li><hr class="dropdown-divider"></li>
-                                    <li><a class="dropdown-item" href="#">{{__('Заключение ЭД')}}</a></li>
+                                    <li><a class="dropdown-item" href="{{ URL('/assets/nav/1.pdf') }}" target="_blank">{{__('content.nav.gov-services.que')}}</a></li>
+                                    <li><a class="dropdown-item" href="{{ URL('/assets/nav/3.pdf') }}" target="_blank">{{__('content.nav.gov-services.direction')}}</a></li>
+                                    <li><a class="dropdown-item" href="{{ URL('/assets/nav/6.pdf') }}" target="_blank">{{__('content.nav.gov-services.receive')}}</a></li>
                                 </ul>
                             </li>
 
