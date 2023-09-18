@@ -1,6 +1,9 @@
 <div class="container">
     <div class="row">
         <div class="ratio ratio-16x9">
+            <iframe width="560" height="315" src="{{ URL('/assets/video/2023-09-15 14-54-21.MP4') }}" title="Балбопе тобы" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen marginheight="20"></iframe>
+        </div> 
+        <div class="ratio ratio-16x9">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/_E6tBrpcWmY" title="Үй және дала құстары" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen marginheight="20"></iframe>
         </div>
         <div class="ratio ratio-16x9">
