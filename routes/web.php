@@ -26,6 +26,7 @@ Route::get('galery/video', [SiteController::class, 'galeryVideo'])->name('site.g
 Route::get('schedule', [SiteController::class, 'schedule'])->name('site.schedule');
 Route::get('groups', [SiteController::class, 'groups'])->name('site.groups');
 Route::get('about', [SiteController::class, 'about'])->name('site.about');
+Route::get('employees', [SiteController::class, 'employees'])->name('site.employees');
 
 
 
