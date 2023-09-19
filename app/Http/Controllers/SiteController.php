@@ -30,4 +30,9 @@ class SiteController extends Controller
     {
         return view('site.galeryVideo');
     }
+
+    public function employees()
+    {
+        return view('site.employees');
+    }
 }
