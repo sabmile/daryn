@@ -1,0 +1,15 @@
+.employee-columns {
+	display: flex;
+}
+
+.employee-gallery img {
+	border: 30px solid rgba(255, 255, 0, 0.4);
+	border-image-source: url("../../public/assets/img/frames/portrait.png");
+	border-image-slice: fill 140;
+}
+
+
+.employee-gallery-content img {
+	max-width: 100%;
+  	max-height: 100%;
+}
