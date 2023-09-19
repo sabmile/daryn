@@ -1,16 +1,16 @@
 <div class="container">
     <div class="row">
         <div class="ratio ratio-16x9">
-            <iframe width="560" height="315" src="{{ URL('/assets/video/VIDEO-2023-09-19-11-53-34.mp4?autoplay=false') }}" title="Доппен ойнау" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen marginheight="20"></iframe>
+            <video controls src="{{ URL('/assets/video/VIDEO-2023-09-19-11-53-34.mp4') }}"></video>
         </div>
         <div class="ratio ratio-16x9">
-            <iframe width="560" height="315" src="{{ URL('/assets/video/VIDEO-2023-09-19-12-08-22.mp4?autoplay=false') }}" title="Шаттық шеңбер" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen marginheight="20"></iframe>
+            <video controls src="{{ URL('/assets/video/VIDEO-2023-09-19-12-08-22.mp4') }}"></video>
         </div>
         <div class="ratio ratio-16x9">
-            <iframe width="560" height="315" src="{{ URL('/assets/video/VIDEO-2023-09-19-12-13-28.mp4?autoplay=false') }}" title="Қазақшаң қалай, балақай" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen marginheight="20"></iframe>
+            <video controls src="{{ URL('/assets/video/VIDEO-2023-09-19-12-13-28.mp4') }}"></video>
         </div> 
         <div class="ratio ratio-16x9">
-            <iframe width="560" height="315" src="{{ URL('/assets/video/2023-09-15 14-54-21.MP4?autoplay=false') }}" title="Балбопе тобы" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen marginheight="20"></iframe>
+            <video controls src="{{ URL('/assets/video/2023-09-15 14-54-21.MP4') }}"></video>
         </div> 
         <div class="ratio ratio-16x9">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/_E6tBrpcWmY" title="Үй және дала құстары" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen marginheight="20"></iframe>
