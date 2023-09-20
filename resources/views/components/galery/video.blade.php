@@ -1,6 +1,9 @@
 <div class="container">
     <div class="row">
         <div class="ratio ratio-16x9">
+            <video controls src="{{ URL('/assets/video/VIDEO-2023-09-20-12-41-47.mp4') }}"></video>
+        </div>
+        <div class="ratio ratio-16x9">
             <video controls src="{{ URL('/assets/video/VIDEO-2023-09-19-11-53-34.mp4') }}"></video>
         </div>
         <div class="ratio ratio-16x9">
