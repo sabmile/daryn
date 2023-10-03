@@ -1,6 +1,15 @@
 <div class="container">
     <div class="row">
         <div class="ratio ratio-16x9">
+            <video controls src="{{ URL('/assets/video/VIDEO-2023-10-03-08-31-37 (1).mp4') }}"></video>
+        </div>
+         <div class="ratio ratio-16x9">
+            <video controls src="{{ URL('/assets/video/VIDEO-2023-10-03-08-31-37.mp4') }}"></video>
+        </div>
+        <div class="ratio ratio-16x9">
+            <video controls src="{{ URL('/assets/video/VIDEO-2023-10-03-08-31-36.mp4') }}"></video>
+        </div>
+        <div class="ratio ratio-16x9">
             <video controls src="{{ URL('/assets/video/VIDEO-2023-09-27-08-18-33.mp4') }}"></video>
         </div>
         <div class="ratio ratio-16x9">
