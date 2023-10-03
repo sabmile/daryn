@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\View\Components\Galery\video;
 use Illuminate\Http\Request;
 
 class SiteController extends Controller
@@ -28,11 +29,21 @@ class SiteController extends Controller
 
     public function galeryVideo()
     {
-        return view('site.galeryVideo');
+        $videos = [
+	        'VIDEO-2023-10-03-08-31-37 (1)',
+	        'VIDEO-2023-10-03-08-31-37',
+        ];
+        return view('site.galeryVideo', compact('videos'));
     }
 
     public function employees()
     {
         return view('site.employees');
+    }
+
+    public function videos()
+    {
+        $videos = ['adf', 'adsf'];
+        return view('site.videos', compact('videos'));
     }
 }
