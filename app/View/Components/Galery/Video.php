@@ -40,6 +40,8 @@ class video extends Component
 	        'VIDEO-2023-10-03-08-31-37',
 	        'VIDEO-2023-10-03-08-31-37 (1)',
             'VIDEO-2023-10-05-09-36-36',
+            'Ролик_2_рус',
+            'Ролик_2_каз',
         ];
         
         return view('components.galery.video', ['videos' => array_reverse($videos)]);
