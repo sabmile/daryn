@@ -32,23 +32,13 @@ class SiteController extends Controller
         return view('site.galeryVideo');
     }
 
-    public function galleryPhoto()
-    {
-        return view('site.galleryPhoto');
-    }
-
-
     public function employees()
     {
         return view('site.employees');
     }
 
-    public function playlist()
+    public function videos()
     {
-<<<<<<< HEAD
-        return view('site.playlist');
-=======
         return view('site.videos');
->>>>>>> playlist
     }
 }
