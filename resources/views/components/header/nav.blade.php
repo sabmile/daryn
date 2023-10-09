@@ -24,7 +24,7 @@
                                 </a>
                                 <ul class="dropdown-menu">
                                     <li><a class="dropdown-item" href="{{ route('site.galeryVideo') }}">{{__('content.nav.video')}}</a></li>
-                                    <li><a class="dropdown-item" href="#">{{__('content.nav.photo')}}</a></li>
+                                    <li><a class="dropdown-item" href="{{ route('site.galleryPhoto') }}">{{__('content.nav.photo')}}</a></li>
                                 </ul>
                             </li>
 
