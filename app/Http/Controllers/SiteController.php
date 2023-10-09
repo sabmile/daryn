@@ -45,10 +45,6 @@ class SiteController extends Controller
 
     public function playlist()
     {
-<<<<<<< HEAD
-        return view('site.playlist');
-=======
         return view('site.videos');
->>>>>>> playlist
     }
 }
