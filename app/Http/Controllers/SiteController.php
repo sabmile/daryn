@@ -29,21 +29,22 @@ class SiteController extends Controller
 
     public function galeryVideo()
     {
-        $videos = [
-	        'VIDEO-2023-10-03-08-31-37 (1)',
-	        'VIDEO-2023-10-03-08-31-37',
-        ];
-        return view('site.galeryVideo', compact('videos'));
+        return view('site.galeryVideo');
     }
+
+    public function galleryPhoto()
+    {
+        return view('site.galleryPhoto');
+    }
+
 
     public function employees()
     {
         return view('site.employees');
     }
 
-    public function videos()
+    public function playlist()
     {
-        $videos = ['adf', 'adsf'];
-        return view('site.videos', compact('videos'));
+        return view('site.playlist');
     }
 }

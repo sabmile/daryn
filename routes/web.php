@@ -23,11 +23,13 @@ Route::get('setlocale/{lang}', [LangController::class, 'setLocale'])->name('setL
 
 Route::get('/', [SiteController::class, 'main'])->name('site.main');
 Route::get('galery/video', [SiteController::class, 'galeryVideo'])->name('site.galeryVideo');
+Route::get('galery/photo', [SiteController::class, 'galleryPhoto'])->name('site.galleryPhoto');
 Route::get('schedule', [SiteController::class, 'schedule'])->name('site.schedule');
 Route::get('groups', [SiteController::class, 'groups'])->name('site.groups');
 Route::get('about', [SiteController::class, 'about'])->name('site.about');
 Route::get('employees', [SiteController::class, 'employees'])->name('site.employees');
 
 
+Route::get('playlist', [SiteController::class, 'playlist'])->name('site.playlist');
 
 
