@@ -29,11 +29,7 @@ class SiteController extends Controller
 
     public function galeryVideo()
     {
-        $videos = [
-	        'VIDEO-2023-10-03-08-31-37 (1)',
-	        'VIDEO-2023-10-03-08-31-37',
-        ];
-        return view('site.galeryVideo', compact('videos'));
+        return view('site.galeryVideo');
     }
 
     public function employees()
@@ -43,7 +39,6 @@ class SiteController extends Controller
 
     public function videos()
     {
-        $videos = ['adf', 'adsf'];
-        return view('site.videos', compact('videos'));
+        return view('site.videos');
     }
 }

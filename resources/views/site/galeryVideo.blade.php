@@ -2,6 +2,6 @@
 
 @section('content')
 
-    <x-galery.video />
+    <x-playlist />
 
 @endsection
