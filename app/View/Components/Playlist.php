@@ -43,6 +43,7 @@ class Playlist extends Component
             ['filename' => 'Ролик_2_рус', 'title' => 'Обращение в государственный орган'],
             ['filename' => 'Ролик_2_каз', 'title' => 'Мемлекеттік органға өтініш'],
             ['filename' => 'VIDEO-2023-10-12-10-39-57', 'title' => 'Балбобек тобы'],
+            ['filename' => 'VIDEO-2023-10-16-14-43-38', 'title' => 'Вокал үйірмесінің жұмысы'],
         ];
 
         return view('components.playlist', ['videos' => array_reverse($videos)]);
