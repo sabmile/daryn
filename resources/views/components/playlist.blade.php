@@ -2,7 +2,7 @@
     <div class="main-video">
         <div class="video">
             <video src="{{ URL('/assets/video/' . $videos[0]['filename'] . '.mp4') }}" controls muted></video>	
-            <h3 class="title">video name</h3>
+            <h3 class="title">{{ $videos[0]['title'] }}</h3>
         </div>
     </div>
     <div class="video-list">
