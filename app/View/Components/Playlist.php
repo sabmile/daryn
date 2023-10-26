@@ -47,7 +47,6 @@ class Playlist extends Component
             ['filename' => 'VIDEO-2023-10-17-08-23-38', 'title' => 'Арнайы мамандардың ерекше білімді қажет ететін балалармен жұмыс жасау әдістері'],
             ['filename' => 'VIDEO-2023-10-19-13-21-38', 'title' => 'Ересек Бүлдіршін тобы - Республика күні'],
             ['filename' => 'VIDEO-2023-10-19-13-26-35', 'title' => 'Балбобек ересек тобы - Республика күні'],
-            ['filename' => 'VIDEO-2023-10-24-16-14-46', 'title' => '25 Қазан - Республика күні'],
         ];
 
         return view('components.playlist', ['videos' => array_reverse($videos)]);
