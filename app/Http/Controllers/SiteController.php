@@ -43,8 +43,8 @@ class SiteController extends Controller
         return view('site.employees');
     }
 
-    public function playlist()
+    public function notification()
     {
-        return view('site.videos');
+       return view('site.notification'); 
     }
 }

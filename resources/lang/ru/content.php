@@ -76,6 +76,7 @@ return [
         'about-us' => 'О нас',
         'history' => 'История',
         'employees' => 'Сотрудники',
+        'notification' => 'Обьявление',
         'gov-services' => [
             'name' => 'Государственные услуги',
             'que' => 'Постановка в очередь',
