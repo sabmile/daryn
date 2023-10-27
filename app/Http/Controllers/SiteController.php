@@ -47,4 +47,10 @@ class SiteController extends Controller
     {
        return view('site.notification'); 
     }
+    
+    public function consultation()
+    {
+       return view('site.consultation'); 
+    }
+
 }

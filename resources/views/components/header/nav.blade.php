@@ -49,6 +49,7 @@
                                     <li><a class="dropdown-item" href="{{ route('site.about') }}">{{__('content.nav.history')}}</a></li>
                                     <li><a class="dropdown-item" href="#">{{__('content.nav.employees')}}</a></li>
                                     <li><a class="dropdown-item" href="{{ route('site.notification') }}">{{__('content.nav.notification')}}</a></li>
+                                    <li><a class="dropdown-item" href="{{ route('site.consultation') }}">{{__('content.nav.consultation')}}</a></li>
                                 </ul>
                             </li>
 
