@@ -26,6 +26,8 @@ class Consultation extends Component
         $items = [
             ['filename' => 'консультациялық пункт (ереже)', 'title' => 'консультациялық пункт (ереже)', 'ext' => 'docx'],
             ['filename' => 'Консультациялық пункт  жоспары', 'title' => 'Консультациялық пункт  жоспары', 'ext' => 'pdf'],
+            ['title' => 'консультациялық пункт жоспары IIкорпус', 'filename' => 'консультациялық пункт жоспары IIкорпус', 'ext' => 'pdf'],
+            ['title' => 'консультациялық пункт жұмысының кестесі', 'filename' => 'консультациялық пункт жұмысының кестесі', 'ext' => 'pdf'],
         ];
 
         return view('components.consultation', compact('items'));
