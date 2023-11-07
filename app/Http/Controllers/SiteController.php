@@ -53,4 +53,10 @@ class SiteController extends Controller
        return view('site.consultation'); 
     }
 
+    public function meals()
+    {
+       return view('site.meals'); 
+    }
+   
+
 }

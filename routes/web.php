@@ -30,3 +30,4 @@ Route::get('about', [SiteController::class, 'about'])->name('site.about');
 Route::get('employees', [SiteController::class, 'employees'])->name('site.employees');
 Route::get('notification', [SiteController::class, 'notification'])->name('site.notification');
 Route::get('consultation', [SiteController::class, 'consultation'])->name('site.consultation');
+Route::get('meals', [SiteController::class, 'meals'])->name('site.meals');
