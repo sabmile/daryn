@@ -33,6 +33,8 @@ class Notification extends Component
             ['title' => 'вакантная должность (әдіскер)', 'filename' => 'вакантная должность (әдіскер)', 'ext' => 'docx'],
             ['title' => 'вакантная должность ( инновация әдіскері)', 'filename' => 'вакантная должность ( инновация әдіскері)', 'ext' => 'docx'],
             ['title' => 'вакантная должность (қазақ тілі мұғалімі)', 'filename' => 'вакантная должность (қазақ тілі мұғалімі)', 'ext' => 'docx'],
+            ['title' => 'Приказ 333 каз', 'filename' => 'Приказ 333 каз', 'ext' => 'pdf'],
+            ['title' => 'Приказ 333 рус', 'filename' => 'Приказ 333 рус', 'ext' => 'pdf'],
         ];
 
         return view('components.notification', compact('items'));
