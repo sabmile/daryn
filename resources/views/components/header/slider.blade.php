@@ -2,6 +2,9 @@
   <div class="col">
     <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false" data-bs-interval="false">
       <div class="carousel-inner">
+        <div class="carousel-item">
+          <img src="{{ URL('/assets/slider/slide-5-kz.jpg') }}" class="d-block w-100" alt="...">
+        </div>
         <div class="carousel-item active">
           <img src="{{ URL('/assets/slider/slide-1.jpg') }}" class="d-block w-100" alt="...">
         </div>
