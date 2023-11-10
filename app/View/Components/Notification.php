@@ -35,6 +35,7 @@ class Notification extends Component
             ['title' => 'вакантная должность (қазақ тілі мұғалімі)', 'filename' => 'вакантная должность (қазақ тілі мұғалімі)', 'ext' => 'docx'],
             ['title' => 'Приказ 333 каз', 'filename' => 'Приказ 333 каз', 'ext' => 'pdf'],
             ['title' => 'Приказ 333 рус', 'filename' => 'Приказ 333 рус', 'ext' => 'pdf'],
+            ['title' => 'Педагогтердің білімін бағалау', 'filename' => '60c14090-3c08-45cd-aac6-745eb83a34af', 'ext' => 'jpg'],
         ];
 
         return view('components.notification', compact('items'));
