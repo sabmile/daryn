@@ -57,6 +57,12 @@ class SiteController extends Controller
     {
        return view('site.meals'); 
     }
-   
+
+    public function pedagogicalSupport()
+    {
+       return view('site.pedagogical-support'); 
+    }
+
+
 
 }
