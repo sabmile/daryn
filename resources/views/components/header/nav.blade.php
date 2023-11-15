@@ -52,6 +52,7 @@
                                     <li><a class="dropdown-item" href="{{ route('site.consultation') }}">{{__('content.nav.consultation')}}</a></li>
                                     <li><a class="dropdown-item" href="{{ route('site.meals') }}">{{__('content.nav.meals')}}</a></li>
                                     <li><a class="dropdown-item" href="{{ route('site.pedagogical-support') }}">{{__('content.nav.pedagogical-support')}}</a></li>
+                                    <li><a class="dropdown-item" href="{{ route('site.trustee-board') }}">{{__('content.nav.trustee-board')}}</a></li>
                                 </ul>
                             </li>
 

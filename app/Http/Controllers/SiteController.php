@@ -63,6 +63,9 @@ class SiteController extends Controller
        return view('site.pedagogical-support'); 
     }
 
-
+    public function trusteeBoard()
+    {
+       return view('site.trustee-board'); 
+    }
 
 }

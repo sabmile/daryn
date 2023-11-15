@@ -32,3 +32,4 @@ Route::get('notification', [SiteController::class, 'notification'])->name('site.
 Route::get('consultation', [SiteController::class, 'consultation'])->name('site.consultation');
 Route::get('meals', [SiteController::class, 'meals'])->name('site.meals');
 Route::get('pedagogical-support', [SiteController::class, 'pedagogicalSupport'])->name('site.pedagogical-support');
+Route::get('trustee-board', [SiteController::class, 'trusteeBoard'])->name('site.trustee-board');
