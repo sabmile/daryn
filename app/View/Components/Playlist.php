@@ -61,6 +61,7 @@ class Playlist extends Component
             ['filename' => 'WhatsApp Video 2023-11-24 at 14.28.13', 'title' => 'Ұйымдастырылған іс - әрекет, “Жолда жүру ережелері”'],
             ['filename' => 'WhatsApp Video 2023-11-24 at 15.30.26', 'title' => '“Тәуелсіздік ел - тұғыры” челенджі'],
             ['filename' => 'WhatsApp Video 2023-11-27 at 12.51.30', 'title' => 'Құм үйірмесі - психолог Хасенова Назым'],
+            ['filename' => 'WhatsApp Video 2023-11-27 at 15.35.18', 'title' => 'Денсаулық еліне саяхат - “Балауса” МАД тобы'],
         ];
 
         return view('components.playlist', ['videos' => array_reverse($videos)]);
