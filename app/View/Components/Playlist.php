@@ -64,6 +64,10 @@ class Playlist extends Component
             ['filename' => 'WhatsApp Video 2023-11-27 at 15.35.18', 'title' => 'Денсаулық еліне саяхат - “Балауса” МАД тобы'],
             ['filename' => 'WhatsApp Video 2023-11-28 at 16.29.17', 'title' => 'Біздің балабақшамыз'],
             ['filename' => 'WhatsApp Video 2023-12-05 at 14.52.50', 'title' => 'Қызылша инфекция туралы ақпарат'],
+            ['filename' => 'WhatsApp Video 2023-12-14 at 09.04.40-2', 'title' => 'Тәуелсіздік баға жетпес байлық - Балбөбек тобы'],
+            ['filename' => 'WhatsApp Video 2023-12-14 at 09.04.40-1', 'title' => 'Қошақан тобы ашық тақырыптық ҰІӘ - Тәуелсіз елдің-ұл қыздарымыз!'],
+            ['filename' => 'WhatsApp Video 2023-12-14 at 09.04.40', 'title' => 'Тәуелсіз елдің-ұл қыздарымыз!'],
+            ['filename' => 'WhatsApp Video 2023-12-14 at 09.04.39', 'title' => 'Балауса тобы "Тәуелсіздік тұғыры биік болсын!"'],
         ];
 
         return view('components.playlist', ['videos' => array_reverse($videos)]);
